@@ -33,7 +33,7 @@
 ## 安装使用
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
-2. 点击 [安装脚本](AgomMDextractor.user.js) 或复制脚本内容到Tampermonkey
+2. 点击 [安装脚本](https://github.com/guiyinan/AgomMarkdownExtractor/raw/refs/heads/main/AgomMDextractor.user.js) 或复制脚本内容到Tampermonkey
 3. 访问任意网页，脚本将自动加载工具栏
 4. 选择内容并使用提取功能
 
