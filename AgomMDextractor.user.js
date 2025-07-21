@@ -7913,18 +7913,10 @@ ${Array.from(document.querySelectorAll('[class*="ant-table"]')).map((el, i) =>
         });
     }
 
-    // 每日提示功能
+    // 每日提示功能 - 已禁用
     function checkDailyReminder() {
-        const today = new Date().toDateString();
-        const lastShowDate = localStorage.getItem(LAST_SHOW_DATE_KEY);
-
-        if (lastShowDate !== today) {
-            // 延迟3秒显示，避免与页面加载冲突
-            setTimeout(() => {
-                showPaymentQR();
-                localStorage.setItem(LAST_SHOW_DATE_KEY, today);
-            }, 3000);
-        }
+        // 打赏弹窗已禁用
+        return;
     }
 
     // 在页面加载完成后执行每日提示检查
